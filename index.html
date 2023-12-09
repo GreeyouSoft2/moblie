@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GS - Web</title>
-    <style>
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.location.href = 'http://greeyousoft.f5.si/';
+        }
+    </script>
+        <style>
         .header .title{
             font-family: 'Noto Sans JP', sans-serif;
         }
